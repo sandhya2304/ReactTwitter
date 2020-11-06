@@ -48,7 +48,6 @@ const Sidebar = () =>{
                </li>
                <div className="sidebar_Btn">
                     <a href="">Profile</a>
-
                </div>
            </ul>
        </div>
