@@ -9,7 +9,7 @@ const Posts = () => {
                      <img src="/images/sandy.jpg" alt="profile img" />
                  </div>
                  <div className="posts_first_name">
-                     <strong>Sandhyua Sharma</strong> <FaRegCheckCircle className="verify"/>  
+                     <strong>Sandhya Sharma</strong> <FaRegCheckCircle className="verify"/>  
                  </div>
                  <div className="posts_first_username">
                      @sandhya2304 .

@@ -1,5 +1,6 @@
 import './App.css';
 import Sidebar from './components/Sidebar';
+import Trends from './components/Trends';
 import Twittes from './components/Twittes';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div className="twitter">
       <Sidebar/>
       <Twittes/>
-      
+      <Trends />
     </div>
   );
 }
