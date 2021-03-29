@@ -1,6 +1,7 @@
 import './App.css';
 import Sidebar from './components/Sidebar';
 import Trends from './components/Trends';
+import TrendsKeyword from './components/TrendsKeyword';
 import Twittes from './components/Twittes';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Sidebar/>
       <Twittes/>
       <Trends />
+      
     </div>
   );
 }

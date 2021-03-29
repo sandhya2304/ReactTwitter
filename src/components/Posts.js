@@ -1,5 +1,12 @@
 import React from 'react'
-import { FaComment, FaHeart, FaLeaf, FaRegChartBar, FaRegCheckCircle, FaRetweet } from 'react-icons/fa'
+import { 
+       FaComment, 
+       FaHeart, 
+       FaLeaf, 
+       FaRegChartBar, 
+       FaRegCheckCircle, 
+       FaRetweet 
+    } from 'react-icons/fa'
 
 const Posts = () => {
     return (
@@ -9,13 +16,15 @@ const Posts = () => {
                      <img src="/images/sandy.jpg" alt="profile img" />
                  </div>
                  <div className="posts_first_name">
-                     <strong>Sandhya Sharma</strong> <FaRegCheckCircle className="verify"/>  
+                     <strong>Sandhuya Sharma</strong> 
+                     <FaRegCheckCircle className="verify"/>  
                  </div>
                  <div className="posts_first_username">
                      @sandhya2304 .
                      <span>6 m</span>
                  </div>
              </div>
+             
              <div className="posts_details">
                  <div className="postss_details_msg">
                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, 
@@ -37,4 +46,4 @@ const Posts = () => {
     )
 }
 
-export default Posts
+export default Posts;

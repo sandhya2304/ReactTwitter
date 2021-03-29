@@ -1,15 +1,19 @@
 import React from 'react'
-import { FaCalendarCheck, FaRegImage, FaRegListAlt, FaRegSmile } from 'react-icons/fa'
+import { FaCalendarCheck, FaRegImage, 
+    FaRegListAlt, FaRegSmile } from 'react-icons/fa'
 
 const CreateTweets = () => {
     return (
         <div className="create">
              <div className="create_first">
                  <div className="create_img">
-                     <img src="/images/sandy.jpg" alt="profile img" /> 
+                     <img src="/images/sandy.jpg" 
+                     alt="profile img" /> 
                  </div>
                  <div className="create_input">
-                     <input type="text" className="create-control" placeholder="Whats happening?" />
+                     <input type="text" 
+                     className="create-control" 
+                     placeholder="Whats happening?" />
                  </div>
              </div>
              <div className="create_second">
